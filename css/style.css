@@ -1,0 +1,249 @@
+/*fonts*/
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'playfair display', serif;
+	font-size:16px;
+	font-weight: 400;
+	color: #626262; 
+}
+/*common end*/
+/*header start*/
+.header{
+	padding: 30px 0;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	}
+.logo{
+width: 13%;
+float: left;
+}
+.logo a{}
+.logo img{
+	100%;
+}
+.menu{
+width: 87%;
+float: right;
+}
+.menu ul{
+	margin: 0;
+    padding: 0;
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	padding: 5px 0;
+	display: inline-block;
+	color: #626262; 
+	text-transform:uppercase;
+	text-decoration: none;
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+
+.menu ul li a:hover{
+border-bottom: 1px solid #626262;
+}
+
+/*header end*/
+}
+/*section start*/
+.banner{
+	width: 90%;
+}
+.b_image img{
+	width: 100%;
+}
+/*section end*/
+/*perfect section start*/
+.perfect{
+	padding: 80px 0;}
+.wrapper2{
+	margin: 0 auto;
+	width: 80%;
+}
+.p_content{}
+.c_light{
+	margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_h1{
+	font-weight: 400;
+}
+
+.c_text{
+	line-height: 25px;
+    margin: 0;
+}
+.mb-45{
+	margin-bottom: 45px;
+}
+.c_light{}
+
+/*perfect section end*/
+
+/*blog start*/
+.blog{
+	padding: 70px 0 0;
+}
+.wrapper_inner{
+	overflow: hidden;
+}
+/*single item start*/
+.single_item{
+	width: 47%;
+    float: left;
+    margin-bottom: 70px;
+}
+.single_item:nth-child(even){
+margin-left: 60px;
+}
+.blog_img{
+	margin-bottom: 25px;
+}
+.blog_img img{
+	width: 100%;
+}
+.blog-text{}
+.text_light{}
+.title{
+	margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.p_text{
+	margin: 0;
+    line-height: 24px;
+}
+/*single item end*/
+/*blog end*/
+/*signup start*/
+.signup{
+	padding: 70px 0;
+    background: #f0f0f0;
+}
+.signup .wrapper_inner{
+    margin: 0 auto;
+	width: 35%;
+}
+.signup .title{
+	margin-top: 0;
+}
+.mb_45{
+margin-bottom: 45px;
+
+}
+.post{    
+	width: 392px;
+    position: relative;
+    margin: 0 auto;
+}
+.post input{
+	font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 385px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background-color: transparent;
+}
+.post button{
+	position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+/*button start*/
+.Load{
+   margin: 130px 0;
+   text-align: center;
+}
+.load_btn{
+	font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 165px;
+    height: 60px;
+    border: 1px solid #626262;
+    background-color: white;
+    color: #626262;
+    cursor: pointer;
+    transition: .4s;
+}
+/*button end*/
+/*signup end*/
+
+/*footer start*/
+.footer{
+	background-color: #F0F0F0;
+}
+.list{
+	width: 30%;
+	margin: 20px 0;
+	float: left;
+}
+.list ul{
+	padding-left: 0; 
+}
+.list ul li{
+	list-style: none;
+    float: left;
+}
+.list ul li a{
+	text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+    color: #626262;
+    transition: .3s;
+}
+.list ul li a:hover{
+border-bottom: 1px solid #626262;
+}
+.icn{
+	width: 30%;
+    float: right;
+    margin: 20px 0;
+}
+.icn ul{
+	float:right;
+}
+.icn ul li{
+	list-style: none;
+	float: left;
+}
+.sp{
+	margin-top: 20px;
+}
+.icn ul li a{
+	text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    color: #626262;
+    transition: .3s;
+} 
+.icn ul li a:hover{
+border-bottom: 1px solid #626262;
+}
+
+/*footer end*/
+
+
